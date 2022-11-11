@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-pro-d467f": {
+      "hosting": {
+        "Angular_pro": [
+          "angular-pro-d467f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-pro-d467f"
+  }
+}

@@ -1,0 +1,9 @@
+
+<app-auth-form (submitted)="registerUser($event)">
+  <h1>Sign up</h1>
+  <a routerLink="/auth">Already registered?</a>
+  <button type="submit">Crate account</button>
+  <div class="error" *ngIf="error">
+    {{error}}
+  </div>
+</app-auth-form>
